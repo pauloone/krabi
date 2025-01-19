@@ -1,0 +1,52 @@
+(footprint "FAN_25mm" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr through_hole)
+  (fp_text reference "REF**" (at -0.2 -2.6 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp 42630e6f-8d55-4391-b3ea-d0dd16a51a43)
+  )
+  (fp_text value "FAN_25mm" (at -0.1 0.1 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp d655bc8a-0990-48f3-9e99-691dc33b7ada)
+  )
+  (fp_text user "-" (at -4.2 -13.9 unlocked) (layer "F.SilkS")
+      (effects (font (face "Bauhaus 93") (size 1 1) (thickness 0.15)) (justify bottom))
+    (tstamp 544abc9b-e83e-4b3a-becd-5f31cf40dee0)
+    (render_cache "-" 0
+      (polygon
+        (pts
+          (xy -4.041973 -14.570209)          (xy -4.041973 -14.38263)          (xy -4.355826 -14.38263)          (xy -4.355826 -14.570209)
+        )
+      )
+    )
+  )
+  (fp_text user "${REFERENCE}" (at -0.1 2.6 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 50bdaca9-1fd2-49a1-b2d7-ab316264b942)
+  )
+  (fp_rect (start -12.8 -12.8) (end 12.8 12.8)
+    (stroke (width 0.1) (type default)) (fill none) (layer "F.SilkS") (tstamp 782b9f10-e9f4-4293-a2c6-f772ed3c4a12))
+  (fp_circle (center 0 0) (end 11.8 0)
+    (stroke (width 0.05) (type default)) (fill none) (layer "Edge.Cuts") (tstamp e3d47d4d-8a05-42a0-b999-efeb8ff9a9d4))
+  (fp_rect (start -4.9 -15.7) (end -2.2 -14.3)
+    (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp 308b3a0a-6cdc-459f-bd3e-bd0106d92a3c))
+  (pad "" np_thru_hole circle (at -10 -10) (size 3.4 3.4) (drill 2.85) (layers "*.Mask") (tstamp 158e10d1-4dcb-4931-a13f-d8ff312214f6))
+  (pad "" np_thru_hole circle (at -10 10) (size 3.4 3.4) (drill 2.85) (layers "F&B.Cu" "*.Mask") (tstamp 8a1378df-75a3-4d5e-bb3f-13e45f936817))
+  (pad "" np_thru_hole circle (at 10 -10) (size 3.4 3.4) (drill 2.85) (layers "*.Mask") (tstamp a82de474-baf8-452f-8001-b14578326c22))
+  (pad "" np_thru_hole circle (at 10 10) (size 3.4 3.4) (drill 2.85) (layers "F&B.Cu" "*.Mask") (tstamp 194f12ef-5290-4e04-b642-dc2106e47f48))
+  (pad "1" thru_hole rect (at -4.2 -15) (size 0.64 0.64) (drill 0.32) (layers "*.Cu" "*.Mask") (tstamp f70d311e-f388-4754-896d-8366c798d621))
+  (pad "2" thru_hole circle (at -2.93 -15) (size 0.64 0.64) (drill 0.32) (layers "*.Cu" "*.Mask") (tstamp 063a5e0a-89ba-48d1-8f59-3532e778ed6a))
+  (group "" (id d8959aad-4cf7-449a-b618-9bfb919f726a)
+    (members
+      544abc9b-e83e-4b3a-becd-5f31cf40dee0
+      845bcd44-9ad4-4aab-b50a-e7d7bd8116d8
+    )
+  )
+  (group "" (id 845bcd44-9ad4-4aab-b50a-e7d7bd8116d8)
+    (members
+      063a5e0a-89ba-48d1-8f59-3532e778ed6a
+      308b3a0a-6cdc-459f-bd3e-bd0106d92a3c
+      f70d311e-f388-4754-896d-8366c798d621
+    )
+  )
+)
