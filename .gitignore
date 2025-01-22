@@ -1,4 +1,5 @@
 fp-info-*
 ~.*
 *.zip
+*.lck
 !.gitignore
