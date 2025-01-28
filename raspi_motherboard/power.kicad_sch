@@ -3935,9 +3935,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "05d1af33-c58f-4145-bee4-42dc668fd73f")
-		(property "Reference" "C_IN_2"
+		(property "Reference" "C2"
 			(at 170.18 93.98 0)
 			(effects
 				(font
@@ -3973,13 +3972,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 166.37 95.25 0)
+		(property "Description" "C_IN_2"
+			(at 170.942 98.552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3991,7 +3989,7 @@
 		(instances
 			(project "power_motherboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4c6639a9-406a-464b-9012-e90cb018ad22"
-					(reference "C_IN_2")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -4119,9 +4117,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "23f042fb-508b-4e54-9769-a9d3d856cf0a")
-		(property "Reference" "C_IN_3"
+		(property "Reference" "C3"
 			(at 185.42 93.98 0)
 			(effects
 				(font
@@ -4157,13 +4154,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 181.61 95.25 0)
+		(property "Description" "C_IN_3"
+			(at 186.182 98.552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4175,7 +4171,7 @@
 		(instances
 			(project "power_motherboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4c6639a9-406a-464b-9012-e90cb018ad22"
-					(reference "C_IN_3")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -5466,9 +5462,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a41933a9-1ffe-4d44-9bb4-4e55bcfdd2be")
-		(property "Reference" "R_EN_1"
+		(property "Reference" "R9"
 			(at 196.85 93.98 0)
 			(effects
 				(font
@@ -5504,13 +5499,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 194.31 95.25 0)
+		(property "Description" "R_EN_1"
+			(at 197.866 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5522,7 +5516,7 @@
 		(instances
 			(project "power_motherboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4c6639a9-406a-464b-9012-e90cb018ad22"
-					(reference "R_EN_1")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -5950,9 +5944,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "edfdd22f-366d-424d-a573-3d061a2efbd5")
-		(property "Reference" "C_IN_1"
+		(property "Reference" "C1"
 			(at 156.21 93.98 0)
 			(effects
 				(font
@@ -5988,13 +5981,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 152.4 95.25 0)
+		(property "Description" "C_IN_1"
+			(at 156.21 98.552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6006,7 +5998,7 @@
 		(instances
 			(project "power_motherboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4c6639a9-406a-464b-9012-e90cb018ad22"
-					(reference "C_IN_1")
+					(reference "C1")
 					(unit 1)
 				)
 			)
