@@ -5,6 +5,196 @@
 	(uuid "8f33abfb-8c87-4089-95e8-62b4ed760785")
 	(paper "A4")
 	(lib_symbols
+		(symbol "2N3906_2"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q_P12VE_1"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "2N3906"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.fr/datasheet/2/308/MMBT3906LT1_D-1811957.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "PNP Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?92*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "2N3906_2_0_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778) (xy 2.286 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "2N3906_2_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.715)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
 				(offset 1.016) hide)
@@ -1776,196 +1966,6 @@
 				)
 			)
 		)
-		(symbol "Transistor_BJT:2N3906"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "2N3906"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "PNP Transistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO?92*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "2N3906_0_1"
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778) (xy 2.286 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "2N3906_1_1"
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 5.715)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 53.34 85.09)
@@ -2026,12 +2026,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "26ac1e45-a96f-427f-8c82-8f6be917a894")
-	)
-	(junction
-		(at 105.41 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2e8059ac-83c6-475f-b3cc-cf4f61e81f96")
 	)
 	(junction
 		(at 85.09 55.88)
@@ -2110,6 +2104,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c64ad6d-55fd-4748-a4ed-05b9698e97bf")
+	)
+	(junction
+		(at 85.09 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "abfa3f96-0215-4f7d-a10b-e5b03ccf4e4c")
 	)
 	(junction
 		(at 69.85 43.18)
@@ -2208,16 +2208,6 @@
 			(type default)
 		)
 		(uuid "01d3d92d-b2ca-4ae8-a31d-c52299c76d10")
-	)
-	(wire
-		(pts
-			(xy 85.09 85.09) (xy 105.41 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "024e2bd2-04c0-4557-b252-3301a456136f")
 	)
 	(wire
 		(pts
@@ -2371,6 +2361,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 83.82) (xy 85.09 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "387d3d39-3ab3-45d7-9d67-8fbda1ccb3bb")
+	)
+	(wire
+		(pts
 			(xy 109.22 66.04) (xy 109.22 68.58)
 		)
 		(stroke
@@ -2388,6 +2388,16 @@
 			(type default)
 		)
 		(uuid "3c152461-7edc-4a48-9331-395008172e10")
+	)
+	(wire
+		(pts
+			(xy 74.93 78.74) (xy 77.47 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c94f72e-41d5-475d-a8e2-a87c5d0d0eaa")
 	)
 	(wire
 		(pts
@@ -2441,7 +2451,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 78.74) (xy 77.47 81.28)
+			(xy 74.93 78.74) (xy 74.93 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2861,16 +2871,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 85.09) (xy 105.41 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9ff136a-c99b-4ae7-9508-41ff78a7391f")
-	)
-	(wire
-		(pts
 			(xy 69.85 78.74) (xy 69.85 81.28)
 		)
 		(stroke
@@ -2951,7 +2951,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 81.28) (xy 77.47 81.28)
+			(xy 69.85 81.28) (xy 74.93 81.28)
 		)
 		(stroke
 			(width 0)
@@ -4522,82 +4522,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2N3906")
-		(at 82.55 78.74 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "50708758-043c-49f6-aba0-7d1c132bc1cd")
-		(property "Reference" "Q_P12VP_1"
-			(at 91.44 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N3906"
-			(at 91.44 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 87.63 76.835 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/2/308/MMBT3906LT1_D-1811957.pdf"
-			(at 82.55 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 82.55 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8586bcd7-2ccf-4c8c-82c4-307f6bbcebf8")
-		)
-		(pin "2"
-			(uuid "521c83bf-95eb-4530-893d-e1f7c3c4bea3")
-		)
-		(pin "3"
-			(uuid "4cc975a0-b4bc-4082-b692-07c1dd179346")
-		)
-		(instances
-			(project "power_motherboard"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4c6639a9-406a-464b-9012-e90cb018ad22"
-					(reference "Q_P12VP_1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 69.85 46.99 0)
 		(unit 1)
@@ -4901,6 +4825,83 @@
 			(project "power_motherboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4c6639a9-406a-464b-9012-e90cb018ad22"
 					(reference "D_12VP_INV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "2N3906_2")
+		(lib_id "Transistor_BJT:2N3906")
+		(at 82.55 78.74 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "70a18d17-8e2d-47ea-973f-cfd873e8876f")
+		(property "Reference" "Q_P12VE_2"
+			(at 87.63 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3906"
+			(at 87.63 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 87.63 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/308/MMBT3906LT1_D-1811957.pdf"
+			(at 82.55 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5725248-eb6b-4a2c-bfc6-ed20dff2761b")
+		)
+		(pin "2"
+			(uuid "3746a02c-be13-4860-b750-1265c03d0265")
+		)
+		(pin "3"
+			(uuid "897c311f-c547-482f-bad1-960d29c0dab1")
+		)
+		(instances
+			(project "power_motherboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4c6639a9-406a-464b-9012-e90cb018ad22"
+					(reference "Q_P12VE_2")
 					(unit 1)
 				)
 			)
@@ -6083,6 +6084,7 @@
 		)
 	)
 	(symbol
+		(lib_name "2N3906_2")
 		(lib_id "Transistor_BJT:2N3906")
 		(at 82.55 50.8 0)
 		(mirror x)
