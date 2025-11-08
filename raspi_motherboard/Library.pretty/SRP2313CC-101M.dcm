@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SRP2313CC-101M
+D Ind,23.5x22x12.6mm,100uH+/-20%,11A,shd
+K
+F https://www.bourns.com/docs/Product-Datasheets/SRP2313CC.pdf
+$ENDCMP
+#
+#End Doc Library

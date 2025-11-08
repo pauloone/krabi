@@ -1,0 +1,113 @@
+(footprint "CP_Panasonic FN Series G size"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "121b96c6-6665-4572-b6fc-f272f29c7085")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "CP_Panasonic FN Series G size"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cd7ad9d4-6d58-4c8a-8672-8d01f7896340")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dafbdb62-9c63-45f6-ba1a-c561e5431170")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "646707cf-42b2-4311-b33a-7e9109080eb5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -5 3)
+		(end -3 5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f4b3bc91-b0d0-4aa6-b43d-8a054e6fe018")
+	)
+	(fp_line
+		(start 3 5)
+		(end 5 3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1b5ddc28-e668-4272-bb34-c2d16640d0ff")
+	)
+	(fp_rect
+		(start -5.25 -5.25)
+		(end 5.25 5.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "09cb59df-0c90-442a-a2d1-db0dc922dd77")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9cbeab22-ea13-4169-b7f3-4757de588fe1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 4.06)
+		(size 0.92 3.52)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "26d721af-3a09-4614-bb7a-a14638afd821")
+	)
+	(pad "2" smd rect
+		(at 0 -4.06)
+		(size 0.92 3.52)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "90cb1b11-3c20-41d1-a3b0-6d41d251a7b8")
+	)
+	(embedded_fonts no)
+)

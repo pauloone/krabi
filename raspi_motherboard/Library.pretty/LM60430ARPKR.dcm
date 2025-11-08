@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM60430ARPKR
+D Switching Voltage Regulators 3.8-V to 36-V, 3-A, ultra-small synchronous step-down converter
+K
+F https://www.ti.com/lit/ds/symlink/lm60430.pdf?ts=1607209467482
+$ENDCMP
+#
+#End Doc Library
