@@ -5463,7 +5463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x02_P2.00mm_Vertical"
 			(at 63.5 93.98 0)
 			(effects
 				(font
@@ -6199,7 +6199,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "58pF"
 			(at 165.1 62.2299 0)
 			(effects
 				(font

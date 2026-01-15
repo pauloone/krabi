@@ -4832,7 +4832,7 @@
 			)
 		)
 	)
-	(global_label "SDL"
+	(global_label "SCL"
 		(shape input)
 		(at 26.67 30.48 180)
 		(fields_autoplaced yes)
@@ -5712,7 +5712,7 @@
 			)
 		)
 	)
-	(global_label "SDL"
+	(global_label "SCL"
 		(shape input)
 		(at 125.73 38.1 180)
 		(fields_autoplaced yes)
