@@ -541,10 +541,18 @@
         "wire_width": 6
       },
       {
+        "name": "10A",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": "",
+        "wire_width": 20
+      },
+      {
         "clearance": 0.2,
         "name": "POW",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.4,
         "tuning_profile": "",
@@ -555,7 +563,7 @@
         "clearance": 0.2,
         "name": "SPI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.28,
         "tuning_profile": "",
@@ -777,7 +785,7 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#FLG1,x3,C12V_2-3,D1-2,D_24V_INV1-3,R_G12VS_2,F_12VE3,#PWR1-2,#PWR13,#PWR17-18",
     "variants": []
   },
   "sheets": [
@@ -792,6 +800,10 @@
     [
       "fdc48edb-4989-401e-a47f-b3b658706075",
       "CAN"
+    ],
+    [
+      "fa6887b9-6f7e-4c63-8b9a-d8a26fe7dfd9",
+      "5V_raspi"
     ]
   ],
   "text_variables": {},
