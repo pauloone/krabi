@@ -785,7 +785,7 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "#FLG1,x3,C12V_2-3,D1-2,D_24V_INV1-3,R_G12VS_2,F_12VE3,#PWR1-2,#PWR13,#PWR17-18",
+    "used_designators": "F_24V_out1,IO7,Out_24V1,BAT_24V1,BAT_12V1,Lidar_12V1,F_12V_Lidar1,F_24V1,F_12VE1,F_12VE4,J3,BAT_12V_3",
     "variants": []
   },
   "sheets": [
